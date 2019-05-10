@@ -1,4 +1,4 @@
-# android-assignment
+# android-assignment - Explore.io
 Explore.io - Explore your nearby places 
 
 API used - Google maps api, Google places api
