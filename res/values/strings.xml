@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Explore.io</string>
+    <string name="title_activity_maps" translatable="false">Explore.io</string>
+    <string name="text">Start exploring around you!</string>
+    <string-array name="language_option">
+        <item>English</item>
+        <item>Chinese</item>
+    </string-array>
+</resources>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Spinner
+        android:id="@+id/spLanguage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp" />
+
+    <TextView
+        android:id="@+id/textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:textSize="60dp"
+        android:textStyle="italic"
+        android:text="@string/text"/>
+
+    <com.spark.submitbutton.SubmitButton
+        android:onClick="onClick"
+        android:clickable="true"
+        android:id="@+id/button"
+        android:layout_width="332dp"
+        android:layout_height="67dp"
+        android:text="Explore!"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="60dp"
+        android:textColor="@color/gray"
+        app:sub_btn_background="@color/white"
+        app:sub_btn_duration="3000"
+        app:sub_btn_line_color="#1abc9c"
+        app:sub_btn_ripple_color="#1abc9c"
+        app:sub_btn_tick_color="@color/white" />
+</LinearLayout>
